@@ -1,0 +1,2 @@
+# common-dotnet-cli-templates
+
