@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2016
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "onion.Service._new_", "Contents\src\2. Services\_new_\onion.Service._new_\onion.Service._new_.csproj", "{29119B31-180E-4B30-AD08-1BDF218597E6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "onion.Service._new_.Tests", "Contents\src\2. Services\_new_\onion.Service._new_.Tests\onion.Service._new_.Tests.csproj", "{89E1C1A7-B30B-49A0-A5FC-4D81CF5884FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29119B31-180E-4B30-AD08-1BDF218597E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29119B31-180E-4B30-AD08-1BDF218597E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29119B31-180E-4B30-AD08-1BDF218597E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29119B31-180E-4B30-AD08-1BDF218597E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89E1C1A7-B30B-49A0-A5FC-4D81CF5884FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89E1C1A7-B30B-49A0-A5FC-4D81CF5884FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89E1C1A7-B30B-49A0-A5FC-4D81CF5884FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89E1C1A7-B30B-49A0-A5FC-4D81CF5884FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7D5E4387-D9C1-4907-8869-B48B09468103}
+	EndGlobalSection
+EndGlobal
