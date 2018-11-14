@@ -20,25 +20,11 @@ It is named pavlova cause cakes have layers too!
 
 ### Usage
 
-<code>
-dotnet new pavlova [-name {solutionName}]
+<code>dotnet new pavlova [-name {solutionName}]
+dotnet new pavlova-service --title {serviceName}
 </code>
 
 ### Installation
 <code>
-dotnet new -i 
-</code>
-
-## Pavlova-service template
-Is used in conjunction with the Pavlova solution structure to create Service projects in the structure of the pavlova template.
-
-### Usage
-
-<code>
-dotnet new pavlova-service
-</code>
-
-### Installation
-<code>
-dotnet new -i 
+dotnet new -i pavlova --nuget-source 
 </code>
