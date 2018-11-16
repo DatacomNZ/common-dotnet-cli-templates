@@ -7,3 +7,4 @@ dotnet sln add ".\src\2. Services\%1\onion.Service.%1.Tests\onion.Service.%1.Tes
 IF "%1"=="" (
 	ECHO "Service name is missing"
 )
+pause
