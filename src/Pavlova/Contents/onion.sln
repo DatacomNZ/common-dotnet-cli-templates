@@ -35,9 +35,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "onion.Presentation.Api", "s
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{ECAFD6A7-851C-4E11-8149-00770004B42F}"
 	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		Add-React-App.cmd = Add-React-App.cmd
+		Add-Service.cmd = Add-Service.cmd
 		Build.cmd = Build.cmd
 		Package.cmd = Package.cmd
 		Readme.md = Readme.md
+		Run.cmd = Run.cmd
+		Test.cmd = Test.cmd
 	EndProjectSection
 EndProject
 Global
