@@ -1,1 +1,1 @@
-nuget pack ".\src\Pavlova\pavlova.nuspec" -OutputDirectory ".\Packages" -NoDefaultExcludes
+./nuget pack ".\src\Pavlova\pavlova.nuspec" -OutputDirectory ".\Packages" -NoDefaultExcludes
