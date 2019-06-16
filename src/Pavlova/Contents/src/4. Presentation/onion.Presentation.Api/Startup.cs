@@ -35,6 +35,7 @@ namespace onion.Presentation.Api
             });
 
             //todo: Add Authentication (cookie/token etc.)
+            //https://docs.microsoft.com/en-us/aspnet/core/migration/1x-to-2x/identity-2x?view=aspnetcore-2.2
             //services.AddAuthentication()
 
             _logger.LogInformation("Services configured.");
@@ -55,6 +56,9 @@ namespace onion.Presentation.Api
             
             // Enable middleware to serve generated Swagger as a JSON endpoint.
             app.UseSwagger();
+
+            //todo: Add Authentication (cookie/token etc.)
+            //app.UseAuthentication();
 
             // Enable middleware to serve swagger-ui (HTML, JS, CSS, etc.), 
             // specifying the Swagger JSON endpoint.
