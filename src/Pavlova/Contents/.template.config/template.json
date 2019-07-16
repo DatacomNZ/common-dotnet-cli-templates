@@ -10,8 +10,9 @@
       "language": "C#",
       "type":"project"
     },
-    "sourceName": "onion",
+    "sourceName": "Pav.Lova",
     "preferNameDirectory": true,
-    "symbols":{ },
+    "symbols":{ 
+    },
     "sources":[]
   }

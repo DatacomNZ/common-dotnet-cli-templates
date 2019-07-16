@@ -1,16 +1,17 @@
-rmdir /s /q ".\src\Pavlova\Contents\src\1. Domain\onion.Core\bin"
-rmdir /s /q ".\src\Pavlova\Contents\src\1. Domain\onion.Core\obj"
-rmdir /s /q ".\src\Pavlova\Contents\src\2. Services\Email\onion.Service.Email\bin"
-rmdir /s /q ".\src\Pavlova\Contents\src\2. Services\Email\onion.Service.Email\obj"
-rmdir /s /q ".\src\Pavlova\Contents\src\2. Services\Email\onion.Service.Email.Tests\bin"
-rmdir /s /q ".\src\Pavlova\Contents\src\2. Services\Email\onion.Service.Email.Tests\obj"
-rmdir /s /q ".\src\Pavlova\Contents\src\2. Services\Mocks\onion.Service.Mocks\bin"
-rmdir /s /q ".\src\Pavlova\Contents\src\2. Services\Mocks\onion.Service.Mocks\obj"
-rmdir /s /q ".\src\Pavlova\Contents\src\2. Services\Mocks\onion.Service.Mocks.Tests\bin"
-rmdir /s /q ".\src\Pavlova\Contents\src\2. Services\Mocks\onion.Service.Mocks.Tests\obj"
-rmdir /s /q ".\src\Pavlova\Contents\src\3. Infrastructure\onion.Infrastructure\bin"
-rmdir /s /q ".\src\Pavlova\Contents\src\3. Infrastructure\onion.Infrastructure\obj"
-rmdir /s /q ".\src\Pavlova\Contents\src\3. Infrastructure\onion.Infrastructure.Tests\bin"
-rmdir /s /q ".\src\Pavlova\Contents\src\3. Infrastructure\onion.Infrastructure.Tests\obj"
-rmdir /s /q ".\src\Pavlova\Contents\src\4. Presentation\onion.Presentation.Api\bin"
-rmdir /s /q ".\src\Pavlova\Contents\src\4. Presentation\onion.Presentation.Api\obj"
+Remove-Item  ".\src\Pavlova\Contents\src\1. Domain\Pav.Lova.Core\bin",
+    ".\src\Pavlova\Contents\src\1. Domain\Pav.Lova.Core\obj",
+    ".\src\Pavlova\Contents\src\2. Services\Email\Pav.Lova.Service.Email\bin",
+    ".\src\Pavlova\Contents\src\2. Services\Email\Pav.Lova.Service.Email\obj",
+    ".\src\Pavlova\Contents\src\2. Services\Email\Pav.Lova.Service.Email.Tests\bin",
+    ".\src\Pavlova\Contents\src\2. Services\Email\Pav.Lova.Service.Email.Tests\obj",
+    ".\src\Pavlova\Contents\src\2. Services\Mocks\Pav.Lova.Service.Mocks\bin",
+    ".\src\Pavlova\Contents\src\2. Services\Mocks\Pav.Lova.Service.Mocks\obj",
+    ".\src\Pavlova\Contents\src\2. Services\Mocks\Pav.Lova.Service.Mocks.Tests\bin",
+    ".\src\Pavlova\Contents\src\2. Services\Mocks\Pav.Lova.Service.Mocks.Tests\obj",
+    ".\src\Pavlova\Contents\src\3. Infrastructure\Pav.Lova.Infrastructure\bin",
+    ".\src\Pavlova\Contents\src\3. Infrastructure\Pav.Lova.Infrastructure\obj",
+    ".\src\Pavlova\Contents\src\3. Infrastructure\Pav.Lova.Infrastructure.Tests\bin",
+    ".\src\Pavlova\Contents\src\3. Infrastructure\Pav.Lova.Infrastructure.Tests\obj",
+    ".\src\Pavlova\Contents\src\4. Presentation\Pav.Lova.Presentation.Api\bin",
+    ".\src\Pavlova\Contents\src\4. Presentation\Pav.Lova.Presentation.Api\obj",
+    ".\src\Pavlova\Contents\.vs\"  -Force -Recurse -ErrorAction Ignore

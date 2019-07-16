@@ -7,7 +7,7 @@ $srcFolder = ".\src\4. Presentation\"
 New-Item -ItemType Directory -Force -Path $srcFolder
 Set-Location $srcFolder
 
-npx create-react-app $reactProjectName --typescript
+npx create-react-app $reactProjectName.ToLower() --typescript
 
 Set-location ".\$reactProjectName"
 
