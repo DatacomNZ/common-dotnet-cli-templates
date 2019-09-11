@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Email\Pav.Lova.Infrastructure.Email\Pav.Lova.Infrastructure.Email.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Readme.md">
+      <Generator>SitecoreCodeGenerationTool</Generator>
+    </None>
+  </ItemGroup>
+
+</Project>
