@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Datacom.Common" Version="1.0.1" />
+    <PackageReference Include="Datacom.Common.Collections" Version="1.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\1. Domain\Pav.Lova.Core\Pav.Lova.Core.csproj" />
+  </ItemGroup>
+
+</Project>

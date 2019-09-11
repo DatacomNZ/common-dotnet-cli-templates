@@ -1,0 +1,1 @@
+﻿Use this folder for email service models.
