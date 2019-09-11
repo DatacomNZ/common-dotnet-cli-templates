@@ -1,1 +1,5 @@
-./nuget pack ".\src\Pavlova\pavlova.nuspec" -OutputDirectory ".\Packages" -NoDefaultExcludes
+param (
+    [string]$version = "1.0.1-alpha",
+    [string]$outputdirectory = "./output"
+)
+./tools/nuget.exe pack ".\src\Pavlova\pavlova.nuspec" -Version $version -OutputDirectory $outputdirectory -NoDefaultExcludes
