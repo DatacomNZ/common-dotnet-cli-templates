@@ -1,11 +1,8 @@
-﻿using Datacom.Common.Collections;
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Datacom.CommonCore.Collections;
 
 namespace Pav.Lova.Core.Example.Models
 {
-    public class ExampleFilter : Filter
+    public class ExampleFilter : BaseSearchFilter
     {
         public string SearchTerms { get; set; }
     }
