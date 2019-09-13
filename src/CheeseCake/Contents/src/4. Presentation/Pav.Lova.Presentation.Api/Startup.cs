@@ -1,10 +1,14 @@
-﻿using Microsoft.AspNetCore.Builder;
+﻿using Datacom.CommonCore.Diagnostics;
+using Datacom.CommonCore.Diagnostics.Extensions;
+using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using Pav.Lova.Presentation.Api.Diagnostics;
 using Swashbuckle.AspNetCore.Swagger;
+using System.Collections.Generic;
 
 namespace Pav.Lova.Presentation.Api
 {
@@ -22,7 +26,16 @@ namespace Pav.Lova.Presentation.Api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1)
+                .AddDiagnosticControllers();
+
+            services.AddTransient<List<ICheckAvailability>>(x =>
+            {
+                return new List<ICheckAvailability>()
+                {
+                    new DefaultHealthChecker()
+                };
+            });
 
             services.AddSwaggerGen(c =>
             {

@@ -1,11 +1,8 @@
-﻿using Datacom.Common.Collections;
-using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Datacom.CommonCore.Collections;
 
 namespace Pav.Lova.Core.Example.Models
 {
-    public class ExampleResult : Result<ExampleItem>
+    public class ExampleResult : PagedResult<ExampleItem>
     {
     }
 }

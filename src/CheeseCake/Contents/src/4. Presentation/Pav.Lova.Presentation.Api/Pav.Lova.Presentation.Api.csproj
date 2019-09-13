@@ -5,13 +5,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Datacom.CommonCore.Diagnostics" Version="1.0.4" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
-    <PackageReference Include="NLog.Web.AspNetCore" Version="4.7.0" />
+    <PackageReference Include="NLog.Web.AspNetCore" Version="4.8.5" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="4.0.1" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\..\1. Domain\Pav.Lova.Core\Pav.Lova.Core.csproj" />
+    <ProjectReference Include="..\..\3. Services\Pav.Lova.Services\Pav.Lova.Services.csproj" />
   </ItemGroup>
 
   <ItemGroup>
