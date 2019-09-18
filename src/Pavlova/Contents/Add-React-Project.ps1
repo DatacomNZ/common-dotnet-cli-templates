@@ -56,6 +56,6 @@ Set-Location $rootLocation
 
 Add-Content .\Build.ps1 ";`$location = Get-location;Set-Location `".\src\4. Presentation\$projectName`"; npm i;set-location `$location;"
 Add-Content .\Run.ps1 ";Start-Process -FilePath `"npm`" -ArgumentList `"run`", `"start`", '--prefix `".\src\4. Presentation\$projectName`"'"
-Add-Content .\Package.ps1  ";`$path = `".\src\4. Presentation\$projectName`"`;`$location = Get-location;Set-Location `$path; npm run build;set-location `$location;Copy-Item `"`$path\build\*`" -Destination `".\output\$projectName`" -force -Recurse"
+Add-Content .\Package.ps1  ";`$path = `".\src\4. Presentation\$projectName`"`;`$location = Get-location;Set-Location `$path; npm run build;set-location `$location;Copy-Item `"`$path\build\*`" -Destination `"`$outputdirectory\$projectName`" -force -Recurse"
 
 Write-Host "React Project created in .\src\4. Presentation\$projectName" -foregroundColor Green
