@@ -4,6 +4,10 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
+  <PropertyGroup>
+   <IsPackable>true</IsPackable>
+</PropertyGroup>
+
   <ItemGroup>
     <PackageReference Include="Datacom.CommonCore.Diagnostics" Version="1.0.4" />
     <PackageReference Include="Microsoft.AspNetCore.App" />

@@ -1,4 +1,4 @@
-﻿using Pav.Lova.Service.Email;
+﻿using Pav.Lova.Infrastructure.Email;
 
 namespace Pav.Lova.Infrastructure.Mocks
 {
