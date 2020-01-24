@@ -13,6 +13,12 @@
     "sourceName": "Pav.Lova",
     "preferNameDirectory": true,
     "symbols":{ 
+      "targetframework": {
+        "description": "",
+        "type": "parameter",
+        "replaces": "{{targetframework}}",
+        "defaultValue": "netcoreapp2.1"
+      }
     },
     "sources":[]
   }
