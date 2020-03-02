@@ -7,5 +7,6 @@
         <packageTypes>
             <packageType name="Template" />
         </packageTypes>
+        <repository type="git" url="https://github.com/DatacomNZ/common-dotnet-cli-templates" />
     </metadata>
 </package>

@@ -18,15 +18,31 @@ It uses certain terminology to achieve this architecture.
 	Contains the UI interface to the solution. This can be anything like a 
 	Website, Console App, Windows App or simply an Api Service.
 
-	# Build.cmd
+## Build.ps1
 
-	Use this file to complete a full build of the solution.
-	This file can implement other solution resources such as 
+Use this file to complete a full build of the solution.
+This file can implement other solution resources such as 
 	
-	* npm installs
-	* webpack build etc.
+* npm installs
+* webpack build etc.
 
-	# Package.cmd
+### Package.ps1
 
-	Use this file to complete a full build of the solution and to create 
-	a package to deploy to another environment.
+Use this file to complete a full build of the solution and to create 
+a package to deploy to another environment.
+
+This is useful if you are building a deployment package from
+with npm/webpack builds.
+
+### Run.ps1
+
+Use this file to run the application. This is useful 
+if you have multiple startup projects. (i.e React/Webpack server etc)
+
+### add-react-project.ps1
+
+Adds a react project to the solution using https://github.com/DatacomNZ/create-react-project-cli.
+It updates the build.ps1/package.ps1 and run.ps1 to include the react project.
+
+## Notes
+This is a boilerplate solution. It can be customised entirely to suit the requirements of the project.

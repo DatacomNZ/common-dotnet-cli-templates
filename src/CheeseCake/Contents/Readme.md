@@ -52,3 +52,10 @@ with npm/webpack builds.
 Use this file to run the application. This is useful 
 if you have multiple startup projects. (i.e React/Webpack server etc)
 
+### add-react-project.ps1
+
+Adds a react project to the solution using https://github.com/DatacomNZ/create-react-project-cli.
+It updates the build.ps1/package.ps1 and run.ps1 to include the react project.
+
+## Notes
+This is a boilerplate solution. It can be customised entirely to suit the requirements of the project.

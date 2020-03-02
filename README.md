@@ -15,8 +15,6 @@ It includes custom nuget packages that we want to use throughout our solutions.
 2. Datacom.CommonCore.Collections
 3. Datacom.CommonCore.Diagnostics
 
-which are implemented in  https://gitlab.datacomdev.co.nz/Midlands/Tools/common-nuget-packages solution.
-
 It is named pavlova cause cakes have layers too!
 
 ### Usage
@@ -26,7 +24,7 @@ It is named pavlova cause cakes have layers too!
 -name is not required. The template derives the name from the folder name.
 
 ### Installation
-<code>dotnet new -i "pavlova" --nuget-source "https://pkgs.dev.azure.com/MidlandsAzure/_packaging/Common/nuget/v3/index.json"</code>
+<code>dotnet new -i "pavlova"</code>
 
 ## Cheesecake Template
 The cheesecake template is an ALTERNATIVE implementation of the clean/onion architecture.
@@ -45,12 +43,4 @@ It includes custom nuget packages that we want to use throughout our solutions.
 
 ### Installation
 
-<code>dotnet new -i "cheesecake" --nuget-source "https://pkgs.dev.azure.com/MidlandsAzure/_packaging/Common/nuget/v3/index.json"</code>
-
-## Installation Authorization
-If you are denied access to the nuget feed.
-You will need to set up the Azure Artifacts Credential Provider on your machine. (https://github.com/microsoft/artifacts-credprovider#azure-artifacts-credential-provider)
-
-Follow the installation instructions in the readme.
-
-After installation, you just rerun the dotnet new commands to install pavlova or cheesecake.
+<code>dotnet new -i "cheesecake"</code>
