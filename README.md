@@ -3,8 +3,8 @@
 ## Purpose
 This project contains the code to generate nuget package templates for use with the dotnet cli.
 
-## Pavlova Template
-The pavlova template is an implementation of the clean/onion architecture.
+## Cheesecake Template
+The Cheesecake template is an implementation of the clean/onion architecture.
 
 Clean Architecture is just the latest in a series of names for the same loosely-coupled, 
 dependency-inverted architecture. You will also find it named hexagonal, ports-and-adapters, or onion architecture.
@@ -15,19 +15,19 @@ It includes custom nuget packages that we want to use throughout our solutions.
 2. Datacom.CommonCore.Collections
 3. Datacom.CommonCore.Diagnostics
 
-It is named pavlova cause cakes have layers too!
+It is named Cheesecake cause cakes have layers too!
 
 ### Usage
 
-<code>dotnet new pavlova [--name {solutionName}]</code>
+<code>dotnet new cheesecake [--name {solutionName}]</code>
 
 -name is not required. The template derives the name from the folder name.
 
 ### Installation
-<code>dotnet new -i "pavlova"</code>
+<code>dotnet new -i "cheesecake"</code>
 
-## Cheesecake Template
-The cheesecake template is an ALTERNATIVE implementation of the clean/onion architecture.
+## Pavlova Template
+The Pavlova template is an ALTERNATIVE implementation of the clean/onion architecture.
 
 This implementation is also based on recommendations from the midlands Solution Architecture team. 
 It includes custom nuget packages that we want to use throughout our solutions.
@@ -37,10 +37,10 @@ It includes custom nuget packages that we want to use throughout our solutions.
 
 ### Usage
 
-<code>dotnet new cheesecake [--name {solutionName}]</code>
+<code>dotnet new pavlova [--name {solutionName}]</code>
 
 -name is not required. The template derives the name from the folder name.
 
 ### Installation
 
-<code>dotnet new -i "cheesecake"</code>
+<code>dotnet new -i "pavlova"</code>
